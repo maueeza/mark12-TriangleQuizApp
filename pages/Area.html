@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Calculator</title>
+    <link href="/styles.css" rel="stylesheet">
+    <link href="../pages/HypotenuseStyle.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header id="header">
+        <h1>FUN WITH TRIANGLES</h1>
+        <nav>
+            <a href="../index.html" id="isTriangleLink">Is Triangle?</a>
+            <a href="./quiz.html" id="QuizLink">Quiz</a>
+            <a href="./Hypotenuse.html" id="HypotenuseLink">Hypotenuse</a>
+            <a href = "./Area.html" id="AreaTriangleLink">Area of Triangle</a>
+        </nav>
+    </header>
+    <main id="container">
+        <h1>Calculate Area of Triangle</h1>
+        <label class="lbl-for-inputs" for="input-base"><p>Enter first side of triangle : </p></label>
+        <input type="number" id="input-base" class="input-for-angles">
+        <label class="lbl-for-inputs" for="input-height"><p>Enter second side of triangle : </p></label>
+        <input type="number" id="input-height" class="input-for-angles">
+        <button class="btn-chk-triangle-n-submit" id="calculate-area">Calculate Area</button>
+        <h1 class="area-formula">Area Formula</h1>
+        <h3 class="area-formula">1/2*base * height</h3>
+        <h2 id="output-container"></h2>
+    </main>
+    <footer id="footer">
+        <div class="footer-content">
+            <h3>copyright &copy;2022 | maueeza bhatkar</h3>
+            <ul class="list-non-bullets">
+                <li>
+                    <a href="https://github.com/maueeza"><img src="/icons8-github.svg"></a>
+                </li>
+                <li>
+                    <a href="https://discord.com//msmomo#9764"><img src="/icons8-discord.svg"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/maueeza-bhatkar-6277a4191/"><img src="/icons8-linkedin-circled.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="../scripts/AreaScript.js"></script>
+</html>
