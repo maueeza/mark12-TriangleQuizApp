@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +10,8 @@ html,body{
     text-align: center;
     margin: 0px;
     height: 100%;
+    font-family: 'Lemonada', cursive;
+    font-family: 'Peralta', cursive;
 }
 
 :root{
@@ -20,6 +24,7 @@ html,body{
     margin: 1rem;
     font-size: larger;
     color: #e11d48;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 #btn-chk-triangle{
@@ -29,16 +34,22 @@ html,body{
     width: 200px;
     height: 2.5rem;
     border: none;
-    font-size: larger;
-    font-weight: bolder;
+    font-size: large;
+    font-family: 'Saira Condensed', sans-serif;
     border-radius: 0.5rem;
     box-shadow: 0 5px 5px #881337;
+    cursor: pointer;
+}
+
+#btn-chk-triangle:hover{
+    font-weight: bolder;
 }
 
 #container{
     width: 100%;
     max-width: var(--width-break);
     margin: 2rem auto 2rem;
+    height: auto;
 }
 
 #header{
@@ -48,15 +59,38 @@ html,body{
 
 #header > h1{
     text-align: initial;
+    color: #fff;
 
 }
 
 nav{
     text-align: right;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 nav > a{
     padding: 0rem 0.5rem;
+    text-decoration: none;
+}
+
+#isTriangleLink:hover{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#QuizLink:hover{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#HypotenuseLink:hover{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#AreaTriangleLink:hover{
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .input-for-angles{
@@ -70,31 +104,35 @@ nav > a{
 }
 
 #container>h1{
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 #footer{
+    display: block;
     height: auto;
-    background-color: var(--primary-color);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding-top: 40px;
-}
-
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
+    /*color: var(--primary-color);*/
+    background-color: var(--primary-color);
+    padding-top: 0.5rem;
 }
 
-.footer-content h3{
-    font-size: 1rem;
+#footer h3{
+    font-size: large;
+    text-align: center;
     text-transform: capitalize;
-    font-weight: 800;
-    line-height: 2rem;
-    
+    font-family: 'Exo 2', sans-serif;
+}
+
+a,img,li{
+    display: inline;
+    color: #fff;
+}
+
+img{
+    width: 40px;
+    padding: 1rem 0.2rem;
+}
+
+#output-container{
+    font-family: 'Exo 2', sans-serif;
 }
