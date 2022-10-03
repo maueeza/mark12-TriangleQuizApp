@@ -18,19 +18,27 @@ html,body{
 .lbl-for-inputs{
     display: block;
     margin: 1rem;
+    font-size: larger;
+    color: #e11d48;
 }
 
 #btn-chk-triangle{
     display: block;
     margin: 1rem auto 1rem;
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 2.5rem;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 5px #881337;
 }
 
 #container{
     width: 100%;
-    border: 1px solid black;
     max-width: var(--width-break);
     margin: 2rem auto 2rem;
-    height: 50vh;
 }
 
 #header{
@@ -49,4 +57,44 @@ nav{
 
 nav > a{
     padding: 0rem 0.5rem;
+}
+
+.input-for-angles{
+    width: 100%;
+    max-width: 250px;
+    border: 1.5px solid var(--primary-color);
+    font-size: 14px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    outline: #fff;
+}
+
+#container>h1{
+    margin: 1rem;
+}
+
+#footer{
+    height: auto;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 40px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    line-height: 2rem;
+    
 }
