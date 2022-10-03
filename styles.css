@@ -1,0 +1,52 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    text-align: center;
+    margin: 0px;
+    height: 100%;
+}
+
+:root{
+    --width-break : 700px;
+    --primary-color : #fb7185;
+}
+
+.lbl-for-inputs{
+    display: block;
+    margin: 1rem;
+}
+
+#btn-chk-triangle{
+    display: block;
+    margin: 1rem auto 1rem;
+}
+
+#container{
+    width: 100%;
+    border: 1px solid black;
+    max-width: var(--width-break);
+    margin: 2rem auto 2rem;
+    height: 50vh;
+}
+
+#header{
+    background-color: var(--primary-color);
+    height: 5rem;
+}
+
+#header > h1{
+    text-align: initial;
+
+}
+
+nav{
+    text-align: right;
+}
+
+nav > a{
+    padding: 0rem 0.5rem;
+}
