@@ -13,7 +13,7 @@
         <h1>FUN WITH TRIANGLES</h1>
         <nav>
             <a href="../index.html" id="isTriangleLink">Is Triangle?</a>
-            <a href="#" id="QuizLink">Quiz</a>
+            <a href="./quiz.html" id="QuizLink">Quiz</a>
             <a id="HypotenuseLink">Hypotenuse</a>
             <a id="AreaTriangleLink">Area of Triangle</a>
         </nav>
@@ -22,28 +22,57 @@
         <main id="quiz-main">
             <h3>Quiz on Triangles</h3>
             <p>For each correct answer there will be 1 point</p>
-            <form>
+            <form class="quiz-form">
             <div class="quiz-container">
                 <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-                <input type="radio" value="45°"> 45°
-                <input type="radio" value="90°"> 90°
-                <input type="radio" value="60°"> 60°
+                <input type="radio" value="45°" name="question1"> 45°
+                <input type="radio" value="90°" name="question1"> 90°
+                <input type="radio" value="60°" name="question1"> 60°
             </div>
             <div class="quiz-container">
                 <p>2. What will be the third angle called where angle1 = 45° and angle2 = 45°?</p>
-                <input type="radio" value="obtuse">Obtuse
-                <input type="radio" value="acute">Acute
-                <input type="radio" value="right angled">Right Angled
+                <input type="radio" value="obtuse" name="question2">Obtuse
+                <input type="radio" value="acute" name="question2">Acute
+                <input type="radio" value="Right Angled" name="question2"> Right Angled
             </div>
             <div class="quiz-container">
                 <p>3. A triangle can have?</p>
-                <input type="radio" value="one-right-angle"> One Right Angle
-                <input type="radio" value="Two Right Angles"> Two Right Angles
+                <input type="radio" value="One Right Angle" name="question3"> One Right Angle
+                <input type="radio" value="Two Right Angles" name="question3"> Two Right Angles
             </div>
+            <div class="quiz-container">
+                <p>4. Which of the following can form a right angled triangle?</p>
+                <input type="radio" value="60°,90°,30°" name="question4"> 60°,90°,30°
+                <input type="radio" value="30°,100°,50°" name="question4"> 30°,100°,50°
+            </div>
+            <div class="quiz-container">
+                <p>5. Which of the following triangles are always similar?</p>
+                <input type="radio" value="Isosceles Triangle" name="question5"> Isosceles Triangle
+                <input type="radio" value="Equilateral Triangle" name="question5"> Equilateral Triangle
+                <input type="radio" value="Scalene Triangle" name="question5"> Equilateral Triangle
+            </div>
+            
             </form>
-            <button>Submit Answers!</button>
+            <button class="btn-chk-triangle-n-submit" id="submit-btn">Submit Answers!</button>
             <h2 id="output-text"></h2>
         </main>
+        <footer id="footer">
+            <div class="footer-content">
+                <h3>copyright &copy;2022 | maueeza bhatkar</h3>
+                <ul class="list-non-bullets">
+                    <li>
+                        <a href="https://github.com/maueeza"><img src="/icons8-github.svg"></a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com//msmomo#9764"><img src="/icons8-discord.svg"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/maueeza-bhatkar-6277a4191/"><img src="/icons8-linkedin-circled.svg"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
    
 </body>
+<script type="text/javascript" src="../scripts/QuizScript.js"></script>
 </html>

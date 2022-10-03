@@ -27,7 +27,7 @@ html,body{
     font-family: 'Saira Condensed', sans-serif;
 }
 
-#btn-chk-triangle{
+.btn-chk-triangle-n-submit{
     display: block;
     margin: 1rem auto 1rem;
     background-color: var(--primary-color);
@@ -41,7 +41,7 @@ html,body{
     cursor: pointer;
 }
 
-#btn-chk-triangle:hover{
+.btn-chk-triangle-n-submit:hover{
     font-weight: bolder;
 }
 
