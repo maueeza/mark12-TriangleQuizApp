@@ -12,3 +12,7 @@ main{
     height: auto;
     width: 90%;
 }
+
+#quiz-main > h3{
+    margin-top: 1rem;
+}
